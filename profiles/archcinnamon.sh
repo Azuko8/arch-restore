@@ -66,7 +66,6 @@ if flatpak install -y flathub \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
     io.github.debasish_patra_1987.linuxthemestore \
-    com.mattjakeman.ExtensionManager \
     org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher \
     > /dev/null; then
