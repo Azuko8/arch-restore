@@ -24,6 +24,7 @@ REMOVE_PACKAGES=(
     epiphany
     gnome-contacts
     vim
+    gnome-software
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
