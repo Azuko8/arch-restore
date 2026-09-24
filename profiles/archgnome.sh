@@ -27,7 +27,7 @@ REMOVE_PACKAGES=(
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
-if sudo pacman -R "${REMOVE_PACKAGES[@]}" -noconfirm; then
+if sudo pacman -R "${REMOVE_PACKAGES[@]}" --noconfirm; then
     echo "Packages removed successfully."
 else
     echo "Error: Package removal failed."
