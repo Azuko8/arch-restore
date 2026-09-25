@@ -38,7 +38,7 @@ fi
 echo "Installing pacman packages..."
 echo ""
 
-if sudo pacman -S --needed --noconfirm fish git micro obs-studio btrfs-assistant solaar timeshift librewolf ghostty flatpak > /dev/null; then
+if sudo pacman -S --needed --noconfirm fish git micro obs-studio btrfs-assistant solaar timeshift librewolf ghostty flatpak libreoffice > /dev/null; then
     echo "Packages installed successfully."
 else
     echo "Error: Installation failed."
